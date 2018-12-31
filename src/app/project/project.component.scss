@@ -1,0 +1,23 @@
+:host {
+  display: block;
+  /*border: 1px solid black;*/
+  border-radius: 3px;
+  box-shadow: 3px 3px 2px #ccc;
+  margin: 20px 0;
+  /*padding: 20px;
+  transition: border-color .5s ease-out; */
+}
+
+/*:host(.marked) {
+  padding: 19px;
+}*/
+
+:host(.inactive) {
+  color: #ccc;
+}
+
+.form-control {
+  /* Make element inline and make occupy 50% of screen */
+  display: inline-block;
+  width: 50%;
+}
